@@ -18,4 +18,8 @@ public class KingMeterException extends RuntimeException{
         this.msg = responseCode.getMsg();
     }
 
+    public KingMeterException(long code,String msg){
+        this.code = code;
+        this.msg = msg;
+    }
 }

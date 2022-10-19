@@ -5,20 +5,20 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @description: status code and message from server to http request
+ * @description: status code and message from server to http httpChannelMap
  * @author: crazyandy
  */
 public enum ResponseCode {
 
     SUCCESS(200, "succeed"),
 
-    BAD_REQUEST(400, "request parameter is not valid"),
+    BAD_REQUEST(400, "httpChannelMap parameter is not valid"),
     UNAUTHORIZED(401, "Authentication failed"),
     LOGIN_ERROR(401, "login failed,username or password not right"),
     FORBIDDEN(403, "forbidden"),
     NOT_FOUND(404, "resource not exist"),
     OPERATE_ERROR(405, "The operation failed and the resource requesting the operation did not exist"),
-    TIME_OUT(408, "request timeout"),
+    TIME_OUT(408, "httpChannelMap timeout"),
     SERVER_ERROR(500, "server internal error"),
 
     StartCodeErrorType(2001l,"Start code error type"),

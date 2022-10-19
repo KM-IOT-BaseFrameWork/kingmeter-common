@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 /**
  * @description: code,message,data
- * from server to http request
+ * from server to http httpChannelMap
  * @author: crazyandy
  */
 @NoArgsConstructor
